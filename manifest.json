@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Push Notification Extension",
+  "description": "Send the current page or clipboard contents as a push notification to your smartphone",
+  "version": "1.0",
+  "permissions": [
+    "activeTab",
+    "clipboardRead",
+    "storage"
+  ],
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  }
+}
